@@ -48,7 +48,7 @@ const EmpRegForm = () => {
     //   }));
     // }
     e.target.files[0].type !== "application/pdf"
-      ? alert("Not Supported")
+      ? alert("Not Supported! only support .pdf")
       : setFile((prevData) => ({ ...prevData, file, fileName }));
   };
 
